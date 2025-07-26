@@ -1,10 +1,42 @@
 # Sales-Insight
 A dynamic Tableau dashboard providing actionable sales insights through interactive visualizations. Tracks key metrics like revenue, growth trends, and regional performance to support data-driven decision-making
 
+# Sales Insight Dashboard
+
+This Tableau dashboard provides dynamic insights into sales data, allowing users to explore sales performance by specific years or months interactively.
+
+## Overview
+
+- **Dynamic Filtering:**  
+  - Click on a specific **year** to update the dashboard and display insights for that year only.  
+  - Select a specific **month** to update the dashboard and display insights for that month only.  
+- **Purpose:**  
+  To provide an intuitive and interactive way to analyze sales trends over time, helping stakeholders make data-driven decisions.
+
+## Features
+
+- Yearly and monthly filtering to drill down into sales data.  
+- Visual representations of sales metrics, trends, and key performance indicators (KPIs).  
+- User-friendly interface for quick insights and data exploration.
+
+## How to Use
+
+1. Open the dashboard in Tableau Public or Tableau Desktop.  
+2. Click on any year in the filter or timeline to see the sales data for that year.  
+3. Use the month selector to narrow down the insights to a specific month within the selected year.  
+4. Explore various charts and metrics that update automatically based on your selections.
+
+## Data Source
+
+The dashboard is built on sales data (specify source if needed, e.g., sample data or proprietary data).
+
+## Link to Dashboard
+
+Access the live dashboard here:  
+[Sales Insight Dashboard](https://public.tableau.com/views/salesinsightproject_17535055889300/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
 <img width="1920" height="1080" alt="Screenshot (349)" src="https://github.com/user-attachments/assets/c9eb07f7-4ff9-4188-8ab0-b56a47bd617f" />
-<br>
-</br>
-View the interactive dashboard here: https://public.tableau.com/views/salesinsightproject_17535055889300/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 When clicking on a specific year or selecting a specific month, the dashboard dynamically updates to display insights for the selected time period only.
 
