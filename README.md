@@ -5,6 +5,19 @@ A dynamic Tableau dashboard providing actionable sales insights through interact
 
 This Tableau dashboard provides dynamic insights into sales data, allowing users to explore sales performance by specific years or months interactively.
 
+## 🧹 Data Cleaning & Preprocessing
+
+### ✅ Null Value Handling
+- Removed records with **null values** in critical columns across multiple tables.
+- Ensured only complete and consistent data is used in the dashboard.
+
+### 💱 Currency Normalization
+- Original sales data included a **mix of Indian Rupees (₹)** and **US Dollars ($)**.
+- Created a **calculated field** to convert all USD values to INR using a fixed exchange rate.
+- Added a new column called **`Normalized Sales Value`** to reflect all sales in INR.
+- This allows consistent reporting and comparison across all regions.
+
+
 ## Overview
 
 - **Dynamic Filtering:**  
@@ -28,7 +41,7 @@ This Tableau dashboard provides dynamic insights into sales data, allowing users
 
 ## Data Source
 
-The dashboard is built on sales data (specify source if needed, e.g., sample data or proprietary data).
+The dashboard is built on sales data given above in excel format.
 
 ## Link to Dashboard
 
